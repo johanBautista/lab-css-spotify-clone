@@ -8,56 +8,54 @@
     <link
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Raleway:300,600"/>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <nav>
-  
-      <img src="./images/spotify-logo.png" alt="" class="top-left"/>
+    <nav class="nav-bar">
+      <a href=""><img src="./images/spotify-logo.png" alt="logo"/></a>
       
-      <div class="top-links">
-        <a href="#">Premium</a>
-        <a href="#">Discover</a>
-        <a href="#">Help</a>
-        <a href="#">Download</a>
-      </div>
+        <ul class="nav-bar-item">
+          <li><a href=""></a>Premium</li>
+          <li><a href=""></a>Discover</li>
+          <li><a href=""></a>Help</li>
+          <li><a href=""></a>Download</li>
+        </ul>
     </nav>
-
-    <header class="background-image">
-      <h1>Music for everyone</h1>
-      <blockquote>Spotify is now free on mobile, tablet and computer. Listen to the right
+    <header class="header">
+      <h1 class="header-title">Music for everyone</h1>
+      <blockquote>Spotify is now free on mobile, tablet and computer.<br/> Listen to the right
           music, wherever you are.</blockquote>
     </header>
 
-    <main>
-      <div class="main-title">
-        <h2>What’s on Spotify?</h2>
-      </div>
-      <article class="service-box">
-        <img src="./images/music-icon.png" alt="" />
-        <h3>Millions of Songs</h3>
-        <p>There are millions of </br>songs on Spotify</p>
-      </article>
-      <article class="service-box">
-        <img src="./images/high-quality-icon.png" alt="" />
-        <h3>HD Music</h3>
-        <p>Listen to music as if you</br> were listening live</p>
-      </article>
-      <article class="service-box">
-        <img src="./images/devices-icon.png" alt="" />
-        <h3>Stream Everywhere</h3>
-        <p>Stream Everywhere Stream music on your</br> smartphone, tablet or</br>
+    <main class="main">
+        <h2 class="main-title">What’s on Spotify?</h2>
+        <hr>
+        <div class="main-section">
+          <article class="service-box">
+            <img src="./images/music-icon.png" alt="logo" />
+            <h3 class="service-title">Millions of Songs</h3>
+            <p>There are millions of </br>songs on Spotify</p>
+        </article>
+        <article class="service-box">
+          <img src="./images/high-quality-icon.png" alt="logo" />
+          <h3 class="service-title">HD Music</h3>
+          <p>Listen to music as if you</br> were listening live</p>
+        </article>
+        <article class="service-box">
+          <img src="./images/devices-icon.png" alt="logo" />
+          <h3 class="service-title">Stream Everywhere</h3>
+          <p>Stream music on your</br> smartphone, tablet or</br>
             computer</p>
-      </article>
+        </article>
+      </div>
+      
       <div class="clearfix"></div>
-
       <section class="green-section">
-        <div class="main-title">
-          <h2 class="title-music">It's as yeezy as Kanye West.</h2>
-          <img src="./images/spotify-app.jpg" alt="" class="column-right"/>
-          <img src="./images/spotify-icon-white.png" alt=""  class="column-center"/>
-        </div>
-        <div class="column-left">
+        <h2 class="title-music">It's as yeezy as Kanye West.</h2>
+
+        <div class="content">
+           <div class="column-left">
           <h3>Search</h3>
           <p>Know what you want to listen to? </br>Just search and hit play.</p>
           <h3>Browse</h3>
@@ -66,9 +64,13 @@
           <h3>Discover</h3>
           <p>Enjoy new music every Monday</br> with your own personal playlist.</br> Or sit
             back and enjoy Radio.</p>      
-          
           </div>
-        
+          <img src="./images/spotify-icon-white.png" alt="icon"  class="column-center"/>
+
+          <img src="./images/spotify-app.jpg" alt="browser" class="column-right"/>
+       
+        </div>
+       
           
       </section>
     </main>
